@@ -72,9 +72,7 @@ class FindDataInterface extends Component {
         })
 
     }
-        
-
-    //ig user selevts holy white have an alert saying calling 911 you pedo    
+           
     handleNo = e => {
         let randomNumber = Math.floor((Math.random() * 57) + 1)
         for(let i = 0; i < this.state.potentialDate.length; i++){
@@ -82,8 +80,13 @@ class FindDataInterface extends Component {
                 this.setState({randomName: this.state.potentialDate[i].name})
                 this.setState({randomImage: this.state.potentialDate[i].img})
                 this.setState({randomId: this.state.potentialDate[i].char_id})
-                
+                console.log(this.state.potentialDate[i].name)
             }
+        }
+
+        if (this.state.randomName === "Tomás Cantillo" || this.state.randomName === "Kaylee Ehrmantraut" || 
+        this.state.randomName === " Holly White" || this.state.randomName === "Brock Cantillo")    {
+            alert("no")
         }
     }
 
@@ -111,7 +114,6 @@ class FindDataInterface extends Component {
 
 
     render(){
-        
         // let individualName = this.state.users.map((val) => {
         //     return (
         //         val.name

@@ -25,7 +25,15 @@ class YesToDate extends Component {
             this.setState({date: response.data})
         })
 
+        let combinations = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu",
+        "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "Hf", "Ta", "W", "Re",
+        "Os", "Ir", "Pt", "Au", "Hg", "Tll", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Rf", "Db", "Sg", "Bh", "Hs", "Mt", "Ds", "Rg", "Cn" , "Nh", "Fl", "Mc", "Lv", "Ts", "Og"]
 
+        for(let i = 0; i < this.state.users.length; i++){
+            console.log(this.state.users[i])
+        }
+
+        console.log(this.state.users)
 
     }
     
@@ -104,12 +112,13 @@ class YesToDate extends Component {
                 val.randomOccupation
             )
         }))
-        console.log(this.state.date)
+
+    
 
         return(
                 <div className="main">
                   <div className="user">
-                    <p>Congrats on your selection!(?). Now lets compare you two. You are {individualAge} years old, and your job is {individualOccupation}.</p>
+                    <p>Congrats on your selection!(?). Now lets compare you two. You are {individualName} and you are {individualAge} years old, and your job is {individualOccupation}.</p>
                   </div>
                   <span id="vs">VS.</span>
                   <div className="random">

@@ -14,7 +14,8 @@ class App extends Component {
     super()
 
     this.state = {
-       currentPage: ""
+       currentPage: "",
+       styleMode: false
     }
   }
 
