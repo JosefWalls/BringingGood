@@ -1,0 +1,65 @@
+main {
+    position: fixed;
+    left: 30vw
+}
+
+#name {
+    position: fixed;
+    top: 25vh;
+    width: 25vw;
+    left: 38vw;
+    height: 10vh;
+    border: 1px solid rgb(54, 60, 76);
+    border-radius: 10%;
+}
+
+#name:hover {
+    border: 1px solid rgb(219, 167, 5);
+    border-radius: 10%;
+}
+
+#age {
+    position: fixed;
+    top: 40vh;
+    left: 38vw;
+    width: 25vw;
+    height: 10vh;
+    border: 1px solid rgb(54, 60, 76);
+    border-radius: 10%;
+}
+
+#age:hover {
+    border: 1px solid rgb(219, 167, 5);
+    border-radius: 10%;
+}
+
+#occupation {
+    position: fixed;
+    top: 55vh;
+    left: 38vw;
+    width: 25vw;
+    height: 10vh;
+    border: 1px solid rgb(54, 60, 76);
+    border-radius: 10%;
+}
+
+#occupation:hover {
+    border: 1px solid rgb(219, 167, 5);
+    border-radius: 10%;
+}
+
+#submit {
+    position: fixed;
+    top: 70vh;
+    left: 46vw;
+    border: none;
+    background: rgb(219, 167, 5);
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5%;
+}
+
+#submit:hover {
+    background: rgb(54, 60, 76);
+    color: rgb(219, 167, 5)
+}

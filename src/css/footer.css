@@ -1,0 +1,7 @@
+.foot {
+    position: fixed;
+    top: 95vh;
+    height: 10vh;
+    width: 100vw;
+    background: #13200d;
+}

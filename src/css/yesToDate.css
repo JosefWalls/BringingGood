@@ -1,0 +1,77 @@
+.main {
+    position: fixed;
+    left: 21vw;
+    height: 75vh;
+    width: 60vw;
+    margin-top: 1.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+.user {
+    height: 75%;
+    width: 40%;
+    font-weight: bold;
+    border: 1px solid grey;
+    box-shadow: -15px 15px 15px 0px rgba(0,0,0,0.36);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.random {
+    height: 75%;
+    width: 40%;   
+    font-weight: bold;
+    position: relative;
+    left: 60%;
+    bottom: 85.25%;
+    border: 1px solid grey;
+    box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.36);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+#vs {
+    font-weight: bolder;
+    font-size: 3em;
+    position: relative;
+    left: 27.5vw;
+    bottom: 32.5vh;
+}
+
+#image {
+    height: 82.5%;
+    width: 100%;
+    padding-top: 3%;
+}
+
+#nevermind {
+    position: fixed;
+    top: 80vh;
+    width: 24%;
+    left: 57vw;
+    height: 5%;
+    background: rgb(54, 60, 76);
+    border: none;
+    color: whitesmoke
+}
+
+
+#nevermind:hover {
+    background: red;
+}
+
+#date {
+    position: fixed;
+    top: 80vh;
+    width: 24%;
+    height: 5%;
+    background: rgb(54, 60, 76);
+    border: none;
+    color: whitesmoke
+}
+
+#date:hover {
+    background: green;
+}

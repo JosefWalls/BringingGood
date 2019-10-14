@@ -1,0 +1,15 @@
+.head {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Mansalva', cursive;
+    color: #13200d;
+    text-shadow: 3px 3px darkgray;
+}
+
+.head:hover {
+    color: rgb(219, 167, 5);
+    text-shadow: darkgray;
+}

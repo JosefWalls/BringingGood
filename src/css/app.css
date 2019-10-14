@@ -1,0 +1,23 @@
+.mainButtons {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 20vw;
+    padding-top: 5vh;
+}
+
+.selector{
+    border: transparent;
+    background: transparent;;
+    font-family: 'Mansalva', cursive;
+    font-size: 2em;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    border-bottom: 1px solid #13200d;
+}
+
+.selector:hover {
+    color: rgb(219, 167, 5) ;
+    border-bottom: 1px solid #13200d;
+}
